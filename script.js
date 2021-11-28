@@ -125,7 +125,7 @@ d3.json("https://lxminarayn.github.io/d3js-flask-fullstack-app/imdb.json", {
         .on("mouseout", () => {
             tooltip.transition()
                 .duration(200)
-                .style("display", "block");
+                .style("display", "none");
         })
 })
 
