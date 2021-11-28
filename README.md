@@ -1,6 +1,6 @@
 ## Sample project to render a scatter plot of top 250 movies (rating vs user votes)
 
-A sample full stack application that renders Scatterplot chart using D3.JS v7 and uses Python Flask to fetch the data for rendering the chart.
+A sample full stack application that renders Scatterplot chart using D3.JS v7 and uses Python Flask v2 to fetch the data for rendering the chart.
 
 ##### Folder structure
 
