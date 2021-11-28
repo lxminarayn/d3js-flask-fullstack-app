@@ -5,9 +5,10 @@ A sample full stack application that renders Scatterplot chart using D3.JS v7 an
 ##### Folder structure
 
 root
+
 ┣ templates
 
- ┗ index.html
+    ┗ index.html
 
 ┣ app.py
 
