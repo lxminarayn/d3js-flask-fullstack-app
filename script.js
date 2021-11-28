@@ -4,7 +4,7 @@
 // In case of any variable parameters to be passed to be passed to backend, the following code might need slight changes
 
 //Fetch the JSON to render the chart
-d3.json("/imdb.json", {
+d3.json("https://lxminarayn.github.io/d3js-flask-fullstack-app/imdb.json", {
     mode: "cors",
     method: "GET"
 }).then(data => {

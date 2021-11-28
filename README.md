@@ -20,7 +20,7 @@ Sample demo can be found [here](https://lxminarayn.github.io/d3js-flask-fullstac
   `d3.json("http://127.0.0.1:5000/imdb", {`
 
   To bypass API server call and point to local JSON file from UI:
-  `d3.json("/imdb.json", {`
+  `d3.json("https://lxminarayn.github.io/d3js-flask-fullstack-app/imdb.json", {`
   and save the file.
 
 - Note that for enabling demo in GitHub page, the repo points to the local imdb.json by default.
