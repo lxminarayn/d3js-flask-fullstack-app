@@ -1,0 +1,26 @@
+/* Author: Laxminarayan Chandrashekar*/
+body {
+  color: #000;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  position: relative;
+}
+body .sp-container {
+  position: relative;
+  border-radius: 20px;
+  background-color: lightyellow;
+}
+body div.tooltip {
+  position: absolute;
+  background-color: #020246;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  display: none;
+  text-align: left;
+}
+
+.dot {
+  fill: coral;
+}

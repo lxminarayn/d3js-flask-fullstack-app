@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>IMDB Top 250 Movies Analysis - Ratings vs Votes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Laxminarayan Chandrashekar" />
+  <meta name="description" content=" D3.JS based scatter plot using a Python Flask API " />
+  <link rel=" stylesheet" href="./style.css">
+  <!-- Avoid console error for favicon -->
+  <link rel=" icon" type="image/png" href="data:;base64,iVBORw0KGgo=">
+
+</head>
+
+<body>
+
+  <header>
+    <h1 id="title">IMDB Top 250 Movies Analysis - Ratings vs Votes</h1>
+    <h6>Uses D3.JS v7 (Chart) and Flask v2 (API)</h6>
+  </header>
+  <div id="sp-container" class="sp-container">
+    <div id="tooltip" class="tooltip-container"></div>
+  </div>
+
+  <!-- Kept the script loading at end to speed up page loading -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.1/d3.min.js"
+    integrity="sha512-COTaPOlz12cG4fSfcBsxZsjauBAyldqp+8FQUM/dZHm+ts/jR4AFoJhCqxy8K10Jrf3pojfsbq7fAPTb1XaVkg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
