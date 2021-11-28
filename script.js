@@ -4,7 +4,7 @@
 // In case of any variable parameters to be passed to be passed to backend, the following code might need slight changes
 
 //Fetch the JSON to render the chart
-d3.json("http://127.0.0.1:5000/imdb", {
+d3.json("/imdb.json", {
     mode: "cors",
     method: "GET"
 }).then(data => {

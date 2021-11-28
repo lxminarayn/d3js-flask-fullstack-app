@@ -1,6 +1,7 @@
 ## Sample project to render a scatter plot of top 250 movies (rating vs user votes)
 
 A sample full stack application that renders Scatterplot chart using D3.JS v7 and uses Python Flask v2 to fetch the data for rendering the chart.
+Sample demo can be found [here](https://lxminarayn.github.io/d3js-flask-fullstack-app/).
 
 #### Folder structure
 
@@ -12,13 +13,17 @@ A sample full stack application that renders Scatterplot chart using D3.JS v7 an
 - `style.css` contains the basic styling for the web site
 - `README.md` renders this file
 
-#### Steps to bypass API server (optional)
+#### Steps to add/bypass API call to fetch movies list
 
-- If you do not want to start local API server, then you go `scripts.js` file and modify line # 7 to point to local JSON file instead of API server as follows:
+- If you do not want to start local Flask API server, then you go `scripts.js` file and modify `line # 7` as follows:
+  To add local API server support:
   `d3.json("http://127.0.0.1:5000/imdb", {`
-  modify this line to:
+
+  To bypass API server call and point to local JSON file from UI:
   `d3.json("/imdb.json", {`
   and save the file.
+
+- Note that for enabling demo in GitHub page, the repo points to the local imdb.json by default.
 
 #### Steps to run the application in local machine
 
@@ -44,7 +49,7 @@ A sample full stack application that renders Scatterplot chart using D3.JS v7 an
 
 #### Following are the features of the backend API:
 
-- Uses Python Flask for implementing the API endpoint
+- Uses [Python Flask v2](https://flask.palletsprojects.com/en/2.0.x/quickstart/) for implementing the API endpoint
 - Enabled basic error handling by re-routing user to default endpoint , whenever any invalid endpoint is hit
-- Reads a mock JSON file from local server itself and sends that back as JSON response to UI
+- Reads a mock JSON file from local server itself and sends that back as JSON response to UI (To avoid saving any API keys in code/environment to access actual IMDB API)
 - Supports GET API call for now and shows a html page on hitting default '/' endpoint with documentation for API.
