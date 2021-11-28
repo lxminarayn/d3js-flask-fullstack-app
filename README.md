@@ -6,12 +6,19 @@ A sample full stack application that renders Scatterplot chart using D3.JS v7 an
 
 root
 ┣ templates
-┃ ┗ index.html
+
+ ┗ index.html
+
 ┣ app.py
+
 ┣ imdb.json
+
 ┣ index.html
+
 ┣ README.md
+
 ┣ script.js
+
 ┗ style.css
 
 - `templates\index.html` is required by Flask to serve the HTML page on hitting default API
