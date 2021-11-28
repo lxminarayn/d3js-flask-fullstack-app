@@ -15,11 +15,12 @@ Sample demo can be found [here](https://lxminarayn.github.io/d3js-flask-fullstac
 
 #### Steps to add/bypass API call to fetch movies list
 
-- If you do not want to start local Flask API server, then you go `scripts.js` file and modify `line # 7` as follows:
+- Go to `scripts.js` file and modify `line # 7` as follows:
+
   To add local API server support:
   `d3.json("http://127.0.0.1:5000/imdb", {`
 
-  To bypass API server call and point to local JSON file from UI:
+  To bypass API server call and point to JSON file directly from UI:
   `d3.json("https://lxminarayn.github.io/d3js-flask-fullstack-app/imdb.json", {`
   and save the file.
 
